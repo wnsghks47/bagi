@@ -1,0 +1,87 @@
+#main_img{
+    width: 971px;
+    height: 308px;
+    background-image: url(../images/img_back.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+#main_img img{
+    margin: 9px 0 0 0;
+}
+
+article#front{
+    margin: 5px 0 5px 20px;
+}
+#solution{
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    width: 910px;
+    min-height: 150px;
+    background: #ebebeb;
+    padding: 10px;
+}
+#hosting, #security, #payment{
+    width: 260px;
+    height: 30%;
+    float: left;
+    padding: 10px;  
+}
+#hosting h3, #security h3, #payment h3{
+   font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ccc;
+    
+}
+#hosting p, #security p, #payment p{
+    font-family: Arial;
+    font-size: 12px;
+    color: #333;
+}
+
+
+/*s3slider*/
+#s3slider {
+    width: 971px; /* important to be same as image width */
+    height: 308px; /* important to be same as image height */
+    position: relative; /* important */
+    overflow: hidden; /* important */
+}
+ 
+#s3sliderContent {
+    width: 971px; /* important to be same as image width or wider */
+    position: absolute; /* important */
+    top: 0; /* important */
+    margin: 0 0 0 -40px; /* important */
+}
+ 
+.s3sliderImage {
+    float: left; /* important */
+    position: relative; /* important */
+    display: none; /* important */
+}
+ 
+.s3sliderImage span {
+    position: absolute; /* important */
+    left: 0;
+    font: 15px/20px Arial, Helvetica, sans-serif;
+    padding: 15px;
+    width: 971px;
+    margin: 9px 0 0 0;
+    background-color: #000;
+    filter: alpha(opacity=70); /* here you can set the opacity of box with text */
+    -moz-opacity: 0.7; /* here you can set the opacity of box with text */
+    -khtml-opacity: 0.7; /* here you can set the opacity of box with text */
+    opacity: 0.7; /* here you can set the opacity of box with text */
+    color: #fff;
+    display: none; /* important */
+    top: 0; /*
+        if you put top: 0;  -> the box with text will be shown 
+                                at the top of the image
+        if you put bottom: 0;  -> the box with text will be shown 
+                                at the bottom of the image
+    */
+}
+
+
+
